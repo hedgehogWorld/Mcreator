@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blue_moon_world:moon_planks"
+    },
+    "3": {
+      "item": "blue_moon_world:moon_planks"
+    },
+    "4": {
+      "item": "blue_moon_world:moon_planks"
+    },
+    "6": {
+      "item": "blue_moon_world:moon_planks"
+    },
+    "7": {
+      "item": "blue_moon_world:moon_planks"
+    },
+    "8": {
+      "item": "blue_moon_world:moon_planks"
+    }
+  },
+  "result": {
+    "item": "blue_moon_world:moon_stairs",
+    "count": 4
+  }
+}

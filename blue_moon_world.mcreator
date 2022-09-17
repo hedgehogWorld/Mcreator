@@ -165,20 +165,190 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gvhh"
+    },
+    {
+      "name": "MoonWood",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_wood"
+    },
+    {
+      "name": "MoonLog",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_log"
+    },
+    {
+      "name": "MoonPlanks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_planks"
+    },
+    {
+      "name": "MoonLeaves",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_leaves"
+    },
+    {
+      "name": "MoonStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_stairs"
+    },
+    {
+      "name": "MoonSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_slab"
+    },
+    {
+      "name": "MoonFence",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence"
+    },
+    {
+      "name": "MoonFenceGate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence_gate"
+    },
+    {
+      "name": "MoonPressurePlate",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_pressure_plate"
+    },
+    {
+      "name": "MoonButton",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_button"
+    },
+    {
+      "name": "MoonItemsTag",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_items_tag"
+    },
+    {
+      "name": "MoonWoodRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_wood_recipe"
+    },
+    {
+      "name": "MoonPlanksRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_planks_recipe"
+    },
+    {
+      "name": "MoonStairsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_stairs_recipe"
+    },
+    {
+      "name": "MoonSlabRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_slab_recipe"
+    },
+    {
+      "name": "MoonFenceRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence_recipe"
+    },
+    {
+      "name": "MoonFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence_gate_recipe"
+    },
+    {
+      "name": "MoonPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_pressure_plate_recipe"
+    },
+    {
+      "name": "MoonButtonRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_button_recipe"
+    },
+    {
+      "name": "MoonStickRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_stick_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.blue_moon_world.moon_leaves": "Moon Leaves",
+      "block.blue_moon_world.moon_planks": "Moon Planks",
       "itemGroup.tabgvhh": "Gvhh",
+      "block.blue_moon_world.moon_button": "Moon Button",
+      "block.blue_moon_world.moon_log": "Moon Log",
+      "block.blue_moon_world.moon_pressure_plate": "Moon Pressure Plate",
       "item.blue_moon_world.moon_hoe": "Moon Hoe",
+      "block.blue_moon_world.moon_fence": "Moon Fence",
+      "block.blue_moon_world.moon_wood": "Moon Wood",
       "block.blue_moon_world.sddd": "Sddd",
+      "block.blue_moon_world.moon_fence_gate": "Moon Fence Gate",
       "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
       "item.blue_moon_world.moon_armor_chestplate": "Moon Chestplate",
       "item.blue_moon_world.moonstoun": "Moonstoun",
       "item.blue_moon_world.moon_armor_leggings": "Moon Leggings",
+      "block.blue_moon_world.moon_slab": "Moon Slab",
       "item.blue_moon_world.moon_shovel": "Moon Shovel",
+      "block.blue_moon_world.moon_stairs": "Moon Stairs",
       "item.blue_moon_world.moonslitok": "Moonslitok",
       "item.blue_moon_world.moon_axe": "Moon Axe",
       "item.blue_moon_world.moon_pickaxe": "Moon Pickaxe",

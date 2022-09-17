@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MoonLog"
+      },
+      {
+        "value": "CUSTOM:MoonLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoonLog"
+      },
+      {
+        "value": "CUSTOM:MoonLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MoonWood"
+    },
+    "name": "moon_wood_recipe",
+    "namespace": "mod"
+  }
+}

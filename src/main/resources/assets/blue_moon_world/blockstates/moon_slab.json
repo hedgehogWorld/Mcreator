@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blue_moon_world:block/moon_slab"
+    },
+    "type=top": {
+      "model": "blue_moon_world:block/moon_slab_top"
+    },
+    "type=double": {
+      "model": "blue_moon_world:block/moon_slab_full"
+    }
+  }
+}
