@@ -357,6 +357,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rfff"
+    },
+    {
+      "name": "MoonBiome",
+      "type": "biome",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_biome"
+    },
+    {
+      "name": "MoonDeart",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_deart"
     }
   ],
   "variable_elements": [],
@@ -365,7 +381,6 @@
     "en_us": {
       "block.blue_moon_world.moon_leaves": "Moon Leaves",
       "block.blue_moon_world.moon_planks": "Moon Planks",
-      "block.blue_moon_world.rfff": "Rfff",
       "itemGroup.tabgvhh": "Gvhh",
       "block.blue_moon_world.moon_button": "Moon Button",
       "block.blue_moon_world.moon_log": "Moon Log",
