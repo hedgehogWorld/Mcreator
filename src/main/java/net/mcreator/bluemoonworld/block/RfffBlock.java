@@ -5,10 +5,10 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
 
-public class MoonDeartBlock extends Block {
+public class RfffBlock extends Block {
 
-	public MoonDeartBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.2000000000000002f).jumpFactor(2f));
+	public RfffBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
 
 	}
 
