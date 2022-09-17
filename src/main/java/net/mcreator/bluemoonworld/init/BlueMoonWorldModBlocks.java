@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.bluemoonworld.block.SdddBlock;
 import net.mcreator.bluemoonworld.block.RoadBlockBlock;
+import net.mcreator.bluemoonworld.block.MoonstounblokBlock;
 import net.mcreator.bluemoonworld.block.MoonWoodBlock;
 import net.mcreator.bluemoonworld.block.MoonStairsBlock;
 import net.mcreator.bluemoonworld.block.MoonSlabBlock;
@@ -38,4 +39,5 @@ public class BlueMoonWorldModBlocks {
 	public static final RegistryObject<Block> MOON_FENCE_GATE = REGISTRY.register("moon_fence_gate", () -> new MoonFenceGateBlock());
 	public static final RegistryObject<Block> MOON_PRESSURE_PLATE = REGISTRY.register("moon_pressure_plate", () -> new MoonPressurePlateBlock());
 	public static final RegistryObject<Block> MOON_BUTTON = REGISTRY.register("moon_button", () -> new MoonButtonBlock());
+	public static final RegistryObject<Block> MOONSTOUNBLOK = REGISTRY.register("moonstounblok", () -> new MoonstounblokBlock());
 }
