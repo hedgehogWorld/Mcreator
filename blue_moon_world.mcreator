@@ -165,6 +165,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gvhh"
+    },
+    {
+      "name": "RoadBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_block"
     }
   ],
   "variable_elements": [],
@@ -172,6 +180,7 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabgvhh": "Gvhh",
+      "block.blue_moon_world.road_block": "Road Block",
       "item.blue_moon_world.moon_hoe": "Moon Hoe",
       "block.blue_moon_world.sddd": "Sddd",
       "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",

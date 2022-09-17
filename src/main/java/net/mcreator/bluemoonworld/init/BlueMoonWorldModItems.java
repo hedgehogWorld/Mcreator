@@ -37,6 +37,7 @@ public class BlueMoonWorldModItems {
 	public static final RegistryObject<Item> MOON_ARMOR_LEGGINGS = REGISTRY.register("moon_armor_leggings", () -> new MoonArmorItem.Leggings());
 	public static final RegistryObject<Item> MOON_ARMOR_BOOTS = REGISTRY.register("moon_armor_boots", () -> new MoonArmorItem.Boots());
 	public static final RegistryObject<Item> SDDD = block(BlueMoonWorldModBlocks.SDDD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ROAD_BLOCK = block(BlueMoonWorldModBlocks.ROAD_BLOCK, BlueMoonWorldModTabs.TAB_GVHH);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

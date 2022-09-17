@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blue_moon_world:blocks/tropaside",
+    "up": "blue_moon_world:blocks/tropa",
+    "north": "blue_moon_world:blocks/tropaside",
+    "east": "blue_moon_world:blocks/tropaside",
+    "south": "blue_moon_world:blocks/tropaside",
+    "west": "blue_moon_world:blocks/tropaside",
+    "particle": "blue_moon_world:blocks/tropaside"
+  }
+}
