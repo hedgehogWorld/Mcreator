@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "blue_moon_world:block/moon_portal_ew"
+    },
+    "axis=x": {
+      "model": "blue_moon_world:block/moon_portal_ns"
+    }
+  }
+}

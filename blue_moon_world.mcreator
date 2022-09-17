@@ -354,7 +354,7 @@
       "name": "Rfff",
       "type": "block",
       "sortid": 43,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "rfff"
     },
@@ -373,6 +373,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "moon_deart"
+    },
+    {
+      "name": "Moon",
+      "type": "dimension",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],

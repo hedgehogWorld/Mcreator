@@ -18,6 +18,7 @@ import net.mcreator.bluemoonworld.block.MoonWoodBlock;
 import net.mcreator.bluemoonworld.block.MoonStairsBlock;
 import net.mcreator.bluemoonworld.block.MoonSlabBlock;
 import net.mcreator.bluemoonworld.block.MoonPressurePlateBlock;
+import net.mcreator.bluemoonworld.block.MoonPortalBlock;
 import net.mcreator.bluemoonworld.block.MoonPlanksBlock;
 import net.mcreator.bluemoonworld.block.MoonLogBlock;
 import net.mcreator.bluemoonworld.block.MoonLeavesBlock;
@@ -44,4 +45,5 @@ public class BlueMoonWorldModBlocks {
 	public static final RegistryObject<Block> MOONSTOUNBLOK = REGISTRY.register("moonstounblok", () -> new MoonstounblokBlock());
 	public static final RegistryObject<Block> MOON_DEART = REGISTRY.register("moon_deart", () -> new MoonDeartBlock());
 	public static final RegistryObject<Block> RFFF = REGISTRY.register("rfff", () -> new RfffBlock());
+	public static final RegistryObject<Block> MOON_PORTAL = REGISTRY.register("moon_portal", () -> new MoonPortalBlock());
 }
