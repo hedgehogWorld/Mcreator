@@ -21,6 +21,7 @@ import net.mcreator.bluemoonworld.block.MoonLogBlock;
 import net.mcreator.bluemoonworld.block.MoonLeavesBlock;
 import net.mcreator.bluemoonworld.block.MoonFenceGateBlock;
 import net.mcreator.bluemoonworld.block.MoonFenceBlock;
+import net.mcreator.bluemoonworld.block.MoonDeartBlock;
 import net.mcreator.bluemoonworld.block.MoonButtonBlock;
 import net.mcreator.bluemoonworld.BlueMoonWorldMod;
 
@@ -38,4 +39,5 @@ public class BlueMoonWorldModBlocks {
 	public static final RegistryObject<Block> MOON_FENCE_GATE = REGISTRY.register("moon_fence_gate", () -> new MoonFenceGateBlock());
 	public static final RegistryObject<Block> MOON_PRESSURE_PLATE = REGISTRY.register("moon_pressure_plate", () -> new MoonPressurePlateBlock());
 	public static final RegistryObject<Block> MOON_BUTTON = REGISTRY.register("moon_button", () -> new MoonButtonBlock());
+	public static final RegistryObject<Block> MOON_DEART = REGISTRY.register("moon_deart", () -> new MoonDeartBlock());
 }

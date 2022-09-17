@@ -30,6 +30,7 @@ import net.mcreator.bluemoonworld.init.BlueMoonWorldModTabs;
 import net.mcreator.bluemoonworld.init.BlueMoonWorldModItems;
 import net.mcreator.bluemoonworld.init.BlueMoonWorldModFeatures;
 import net.mcreator.bluemoonworld.init.BlueMoonWorldModBlocks;
+import net.mcreator.bluemoonworld.init.BlueMoonWorldModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,6 +52,8 @@ public class BlueMoonWorldMod {
 		BlueMoonWorldModItems.REGISTRY.register(bus);
 
 		BlueMoonWorldModFeatures.REGISTRY.register(bus);
+
+		BlueMoonWorldModBiomes.REGISTRY.register(bus);
 
 	}
 
