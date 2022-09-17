@@ -49,10 +49,10 @@ public class BlueMoonWorldModItems {
 	public static final RegistryObject<Item> MOON_FENCE_GATE = block(BlueMoonWorldModBlocks.MOON_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> MOON_PRESSURE_PLATE = block(BlueMoonWorldModBlocks.MOON_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> MOON_BUTTON = block(BlueMoonWorldModBlocks.MOON_BUTTON, BlueMoonWorldModTabs.TAB_GVHH);
-	public static final RegistryObject<Item> MOON_DEART = block(BlueMoonWorldModBlocks.MOON_DEART, BlueMoonWorldModTabs.TAB_GVHH);
 	public static final RegistryObject<Item> MOONSTOUNBLOK = block(BlueMoonWorldModBlocks.MOONSTOUNBLOK, BlueMoonWorldModTabs.TAB_GVHH);
-	public static final RegistryObject<Item> MOON = REGISTRY.register("moon", () -> new MoonItem());
+	public static final RegistryObject<Item> MOON_DEART = block(BlueMoonWorldModBlocks.MOON_DEART, BlueMoonWorldModTabs.TAB_GVHH);
 	public static final RegistryObject<Item> RFFF = block(BlueMoonWorldModBlocks.RFFF, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON = REGISTRY.register("moon", () -> new MoonItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

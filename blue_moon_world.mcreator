@@ -335,6 +335,30 @@
       "registry_name": "moon_pressure_plate"
     },
     {
+      "name": "Moonstounblok",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonstounblok"
+    },
+    {
+      "name": "Ffff",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffff"
+    },
+    {
+      "name": "Rfff",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rfff"
+    },
+    {
       "name": "MoonBiome",
       "type": "biome",
       "sortid": 41,
@@ -351,22 +375,6 @@
       "registry_name": "moon_deart"
     },
     {
-      "name": "Ffff",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ffff"
-    },
-    {
-      "name": "Moonstounblok",
-      "type": "block",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moonstounblok"
-    },
-    {
       "name": "Moon",
       "type": "dimension",
       "sortid": 43,
@@ -376,14 +384,6 @@
       "metadata": {
         "ep": true
       }
-    },
-    {
-      "name": "Rfff",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rfff"
     }
   ],
   "variable_elements": [],
