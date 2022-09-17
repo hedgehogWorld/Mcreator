@@ -186,7 +186,7 @@
       "name": "MoonPlanks",
       "type": "block",
       "sortid": 23,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_planks"
     },
@@ -194,7 +194,7 @@
       "name": "MoonButton",
       "type": "block",
       "sortid": 30,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_button"
     },
@@ -274,7 +274,7 @@
       "name": "MoonSlab",
       "type": "block",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_slab"
     },
@@ -290,7 +290,7 @@
       "name": "MoonFenceGate",
       "type": "block",
       "sortid": 28,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_fence_gate"
     },
@@ -298,7 +298,7 @@
       "name": "MoonLog",
       "type": "block",
       "sortid": 22,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_log"
     },
@@ -306,7 +306,7 @@
       "name": "MoonFence",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_fence"
     },
@@ -322,7 +322,7 @@
       "name": "MoonLeaves",
       "type": "block",
       "sortid": 24,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_leaves"
     },
@@ -330,7 +330,7 @@
       "name": "MoonPressurePlate",
       "type": "block",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moon_pressure_plate"
     }
@@ -340,17 +340,17 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabgvhh": "Gvhh",
-      "item.blue_moon_world.moon_armor_chestplate": "Moon Chestplate",
-      "item.blue_moon_world.moonstoun": "Moonstoun",
-      "item.blue_moon_world.moon_shovel": "Moon Shovel",
-      "item.blue_moon_world.moonslitok": "Moonslitok",
-      "item.blue_moon_world.moon_axe": "Moon Axe",
-      "item.blue_moon_world.moon_armor_boots": "Moon Boots",
       "item.blue_moon_world.moon_hoe": "Moon Hoe",
       "block.blue_moon_world.sddd": "Sddd",
       "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
+      "item.blue_moon_world.moon_armor_chestplate": "Moon Chestplate",
+      "item.blue_moon_world.moonstoun": "Moonstoun",
       "item.blue_moon_world.moon_armor_leggings": "Moon Leggings",
+      "item.blue_moon_world.moon_shovel": "Moon Shovel",
+      "item.blue_moon_world.moonslitok": "Moonslitok",
+      "item.blue_moon_world.moon_axe": "Moon Axe",
       "item.blue_moon_world.moon_pickaxe": "Moon Pickaxe",
+      "item.blue_moon_world.moon_armor_boots": "Moon Boots",
       "item.blue_moon_world.moon_sword": "Moon Sword"
     }
   },
