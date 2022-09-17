@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blue_moon_world:blocks/blok",
+    "up": "blue_moon_world:blocks/blok",
+    "north": "blue_moon_world:blocks/blok",
+    "east": "blue_moon_world:blocks/blok",
+    "south": "blue_moon_world:blocks/blok",
+    "west": "blue_moon_world:blocks/blok",
+    "particle": "blue_moon_world:blocks/blok"
+  }
+}
