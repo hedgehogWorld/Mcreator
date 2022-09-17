@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "blue_moon_world:blocks/moon_planks",
+    "particle": "blue_moon_world:blocks/moon_planks"
+  }
+}

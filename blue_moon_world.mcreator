@@ -173,6 +173,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_block"
+    },
+    {
+      "name": "MoonWood",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_wood"
+    },
+    {
+      "name": "MoonPlanks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_planks"
+    },
+    {
+      "name": "MoonButton",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_button"
+    },
+    {
+      "name": "MoonPlanksRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_planks_recipe"
+    },
+    {
+      "name": "MoonFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence_gate_recipe"
+    },
+    {
+      "name": "MoonStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_stairs"
+    },
+    {
+      "name": "MoonStairsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_stairs_recipe"
+    },
+    {
+      "name": "MoonButtonRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_button_recipe"
+    },
+    {
+      "name": "MoonWoodRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_wood_recipe"
+    },
+    {
+      "name": "MoonFenceRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence_recipe"
+    },
+    {
+      "name": "MoonItemsTag",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_items_tag"
+    },
+    {
+      "name": "MoonPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_pressure_plate_recipe"
+    },
+    {
+      "name": "MoonSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_slab"
+    },
+    {
+      "name": "MoonSlabRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_slab_recipe"
+    },
+    {
+      "name": "MoonFenceGate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence_gate"
+    },
+    {
+      "name": "MoonLog",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_log"
+    },
+    {
+      "name": "MoonFence",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fence"
+    },
+    {
+      "name": "MoonStickRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_stick_recipe"
+    },
+    {
+      "name": "MoonLeaves",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_leaves"
+    },
+    {
+      "name": "MoonPressurePlate",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_pressure_plate"
     }
   ],
   "variable_elements": [],
@@ -180,19 +340,18 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabgvhh": "Gvhh",
-      "block.blue_moon_world.road_block": "Road Block",
-      "item.blue_moon_world.moon_hoe": "Moon Hoe",
-      "block.blue_moon_world.sddd": "Sddd",
-      "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
       "item.blue_moon_world.moon_armor_chestplate": "Moon Chestplate",
       "item.blue_moon_world.moonstoun": "Moonstoun",
-      "item.blue_moon_world.moon_armor_leggings": "Moon Leggings",
       "item.blue_moon_world.moon_shovel": "Moon Shovel",
       "item.blue_moon_world.moonslitok": "Moonslitok",
       "item.blue_moon_world.moon_axe": "Moon Axe",
+      "item.blue_moon_world.moon_armor_boots": "Moon Boots",
+      "item.blue_moon_world.moon_hoe": "Moon Hoe",
+      "block.blue_moon_world.sddd": "Sddd",
+      "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
+      "item.blue_moon_world.moon_armor_leggings": "Moon Leggings",
       "item.blue_moon_world.moon_pickaxe": "Moon Pickaxe",
-      "item.blue_moon_world.moon_sword": "Moon Sword",
-      "item.blue_moon_world.moon_armor_boots": "Moon Boots"
+      "item.blue_moon_world.moon_sword": "Moon Sword"
     }
   },
   "foldersRoot": {

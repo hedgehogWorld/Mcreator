@@ -1,6 +1,5 @@
 {
   "itemGroup.tabgvhh": "Gvhh",
-  "block.blue_moon_world.road_block": "Road Block",
   "item.blue_moon_world.moon_hoe": "Moon Hoe",
   "block.blue_moon_world.sddd": "Sddd",
   "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
@@ -11,6 +10,6 @@
   "item.blue_moon_world.moonslitok": "Moonslitok",
   "item.blue_moon_world.moon_axe": "Moon Axe",
   "item.blue_moon_world.moon_pickaxe": "Moon Pickaxe",
-  "item.blue_moon_world.moon_sword": "Moon Sword",
-  "item.blue_moon_world.moon_armor_boots": "Moon Boots"
+  "item.blue_moon_world.moon_armor_boots": "Moon Boots",
+  "item.blue_moon_world.moon_sword": "Moon Sword"
 }

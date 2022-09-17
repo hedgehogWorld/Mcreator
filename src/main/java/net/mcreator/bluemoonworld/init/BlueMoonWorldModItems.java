@@ -38,6 +38,16 @@ public class BlueMoonWorldModItems {
 	public static final RegistryObject<Item> MOON_ARMOR_BOOTS = REGISTRY.register("moon_armor_boots", () -> new MoonArmorItem.Boots());
 	public static final RegistryObject<Item> SDDD = block(BlueMoonWorldModBlocks.SDDD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ROAD_BLOCK = block(BlueMoonWorldModBlocks.ROAD_BLOCK, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON_WOOD = block(BlueMoonWorldModBlocks.MOON_WOOD, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON_LOG = block(BlueMoonWorldModBlocks.MOON_LOG, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON_PLANKS = block(BlueMoonWorldModBlocks.MOON_PLANKS, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON_LEAVES = block(BlueMoonWorldModBlocks.MOON_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MOON_STAIRS = block(BlueMoonWorldModBlocks.MOON_STAIRS, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON_SLAB = block(BlueMoonWorldModBlocks.MOON_SLAB, BlueMoonWorldModTabs.TAB_GVHH);
+	public static final RegistryObject<Item> MOON_FENCE = block(BlueMoonWorldModBlocks.MOON_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> MOON_FENCE_GATE = block(BlueMoonWorldModBlocks.MOON_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> MOON_PRESSURE_PLATE = block(BlueMoonWorldModBlocks.MOON_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> MOON_BUTTON = block(BlueMoonWorldModBlocks.MOON_BUTTON, BlueMoonWorldModTabs.TAB_GVHH);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

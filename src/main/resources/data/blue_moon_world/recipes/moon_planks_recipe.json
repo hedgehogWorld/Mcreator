@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:moon_log"
+    }
+  ],
+  "result": {
+    "item": "blue_moon_world:moon_planks",
+    "count": 4
+  }
+}

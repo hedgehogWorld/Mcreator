@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "blue_moon_world:deleted_mod_element"
+    },
+    "1": {
+      "item": "blue_moon_world:deleted_mod_element"
+    },
+    "2": {
+      "item": "blue_moon_world:deleted_mod_element"
+    },
+    "3": {
+      "item": "blue_moon_world:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "blue_moon_world:moon_wood",
+    "count": 3
+  }
+}

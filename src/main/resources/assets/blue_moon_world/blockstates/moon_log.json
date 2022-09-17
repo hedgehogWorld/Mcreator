@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "blue_moon_world:block/moon_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "blue_moon_world:block/moon_log"
+    },
+    "axis=z": {
+      "model": "blue_moon_world:block/moon_log",
+      "x": 90
+    }
+  }
+}

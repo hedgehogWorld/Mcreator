@@ -5,14 +5,14 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
 
-public class RoadBlockBlock extends Block {
+public class MoonWoodBlock extends Block {
 
-	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
+	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
-	public RoadBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.5f));
+	public MoonWoodBlock() {
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f));
 
-		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
 	@Override
@@ -22,22 +22,29 @@ public class RoadBlockBlock extends Block {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING);
+		builder.add(AXIS);
 	}
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		if (context.getClickedFace().getAxis() == Direction.Axis.Y)
-			return this.defaultBlockState().setValue(FACING, Direction.NORTH);
-		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
+		return this.defaultBlockState().setValue(AXIS, context.getClickedFace().getAxis());
 	}
 
+	@Override
 	public BlockState rotate(BlockState state, Rotation rot) {
-		return state.setValue(FACING, rot.rotate(state.getValue(FACING)));
+		if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
+			if (state.getValue(AXIS) == Direction.Axis.X) {
+				return state.setValue(AXIS, Direction.Axis.Z);
+			} else if (state.getValue(AXIS) == Direction.Axis.Z) {
+				return state.setValue(AXIS, Direction.Axis.X);
+			}
+		}
+		return state;
 	}
 
-	public BlockState mirror(BlockState state, Mirror mirrorIn) {
-		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 5;
 	}
 
 	@Override
