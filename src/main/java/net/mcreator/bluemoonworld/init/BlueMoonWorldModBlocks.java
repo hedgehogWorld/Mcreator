@@ -42,8 +42,8 @@ public class BlueMoonWorldModBlocks {
 	public static final RegistryObject<Block> MOON_FENCE_GATE = REGISTRY.register("moon_fence_gate", () -> new MoonFenceGateBlock());
 	public static final RegistryObject<Block> MOON_PRESSURE_PLATE = REGISTRY.register("moon_pressure_plate", () -> new MoonPressurePlateBlock());
 	public static final RegistryObject<Block> MOON_BUTTON = REGISTRY.register("moon_button", () -> new MoonButtonBlock());
-	public static final RegistryObject<Block> MOON_DEART = REGISTRY.register("moon_deart", () -> new MoonDeartBlock());
 	public static final RegistryObject<Block> MOONSTOUNBLOK = REGISTRY.register("moonstounblok", () -> new MoonstounblokBlock());
-	public static final RegistryObject<Block> MOON_PORTAL = REGISTRY.register("moon_portal", () -> new MoonPortalBlock());
+	public static final RegistryObject<Block> MOON_DEART = REGISTRY.register("moon_deart", () -> new MoonDeartBlock());
 	public static final RegistryObject<Block> RFFF = REGISTRY.register("rfff", () -> new RfffBlock());
+	public static final RegistryObject<Block> MOON_PORTAL = REGISTRY.register("moon_portal", () -> new MoonPortalBlock());
 }
