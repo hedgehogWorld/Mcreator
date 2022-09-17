@@ -1,10 +1,12 @@
 {
   "block.blue_moon_world.moon_leaves": "Moon Leaves",
   "block.blue_moon_world.moon_planks": "Moon Planks",
+  "block.blue_moon_world.rfff": "Rfff",
   "itemGroup.tabgvhh": "Gvhh",
   "block.blue_moon_world.moon_button": "Moon Button",
   "block.blue_moon_world.moon_log": "Moon Log",
   "block.blue_moon_world.moon_fence": "Moon Fence",
+  "biome.blue_moon_world.moon_biome": "Moon Biome",
   "item.blue_moon_world.moon_armor_chestplate": "Moon Chestplate",
   "item.blue_moon_world.moonstoun": "Moonstoun",
   "block.blue_moon_world.moon_slab": "Moon Slab",
@@ -16,12 +18,14 @@
   "block.blue_moon_world.moon_pressure_plate": "Moon Pressure Plate",
   "block.blue_moon_world.road_block": "Road Block",
   "item.blue_moon_world.moon_hoe": "Moon Hoe",
+  "item.blue_moon_world.moon": "Moon Portal Igniter",
   "block.blue_moon_world.moon_wood": "Moon Wood",
   "block.blue_moon_world.sddd": "Sddd",
   "block.blue_moon_world.moon_fence_gate": "Moon Fence Gate",
   "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
   "item.blue_moon_world.moon_armor_leggings": "Moon Leggings",
   "block.blue_moon_world.moon_stairs": "Moon Stairs",
+  "block.blue_moon_world.moon_deart": "Moon Deart",
   "item.blue_moon_world.moon_pickaxe": "Moon Pickaxe",
   "item.blue_moon_world.moon_sword": "Moon Sword"
 }
