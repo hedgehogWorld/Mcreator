@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "blue_moon_world:moonslitok"
+    },
+    "1": {
+      "item": "blue_moon_world:moonslitok"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "blue_moon_world:moon_sword",
+    "count": 1
+  }
+}

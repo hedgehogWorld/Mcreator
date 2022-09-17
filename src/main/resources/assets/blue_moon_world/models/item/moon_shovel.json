@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "blue_moon_world:items/moon_shovel"
+  }
+}

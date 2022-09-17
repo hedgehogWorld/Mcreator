@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "blue_moon_world:moonslitok"
+    },
+    "2": {
+      "item": "blue_moon_world:moonslitok"
+    },
+    "3": {
+      "item": "blue_moon_world:moonslitok"
+    },
+    "5": {
+      "item": "blue_moon_world:moonslitok"
+    }
+  },
+  "result": {
+    "item": "blue_moon_world:moon_armor_boots",
+    "count": 1
+  }
+}

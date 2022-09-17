@@ -1,0 +1,211 @@
+{
+  "mod_elements": [
+    {
+      "name": "Moonstoun",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonstoun"
+    },
+    {
+      "name": "Moonslitok",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonslitok"
+    },
+    {
+      "name": "Qw3456789",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qw_3456789"
+    },
+    {
+      "name": "MoonPickaxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_pickaxe"
+    },
+    {
+      "name": "MoonAxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_axe"
+    },
+    {
+      "name": "MoonSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_sword"
+    },
+    {
+      "name": "MoonShovel",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_shovel"
+    },
+    {
+      "name": "MoonHoe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_hoe"
+    },
+    {
+      "name": "MoonPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_pickaxe_recipe"
+    },
+    {
+      "name": "MoonAxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_axe_recipe"
+    },
+    {
+      "name": "MoonSwordRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_sword_recipe"
+    },
+    {
+      "name": "MoonShovelRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_shovel_recipe"
+    },
+    {
+      "name": "MoonHoeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_hoe_recipe"
+    },
+    {
+      "name": "MoonArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MoonArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_armor_helmet_recipe"
+    },
+    {
+      "name": "MoonArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_armor_body_recipe"
+    },
+    {
+      "name": "MoonArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_armor_leggings_recipe"
+    },
+    {
+      "name": "MoonArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_armor_boots_recipe"
+    },
+    {
+      "name": "Sddd",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sddd"
+    },
+    {
+      "name": "Gvhh",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gvhh"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabgvhh": "Gvhh",
+      "item.blue_moon_world.moon_hoe": "Moon Hoe",
+      "block.blue_moon_world.sddd": "Sddd",
+      "item.blue_moon_world.moon_armor_helmet": "Moon Helmet",
+      "item.blue_moon_world.moon_armor_chestplate": "Moon Chestplate",
+      "item.blue_moon_world.moonstoun": "Moonstoun",
+      "item.blue_moon_world.moon_armor_leggings": "Moon Leggings",
+      "item.blue_moon_world.moon_shovel": "Moon Shovel",
+      "item.blue_moon_world.moonslitok": "Moonslitok",
+      "item.blue_moon_world.moon_axe": "Moon Axe",
+      "item.blue_moon_world.moon_pickaxe": "Moon Pickaxe",
+      "item.blue_moon_world.moon_sword": "Moon Sword",
+      "item.blue_moon_world.moon_armor_boots": "Moon Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "blue_moon_world",
+    "modName": "blue_moon_world",
+    "version": "1.0.0",
+    "author": "Artem, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.bluemoonworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
