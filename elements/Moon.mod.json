@@ -21,7 +21,7 @@
     "canRespawnHere": false,
     "hasFog": false,
     "isDark": false,
-    "doesWaterVaporize": true,
+    "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
